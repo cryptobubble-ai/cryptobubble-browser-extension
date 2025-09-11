@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build
+dist/
+build/
+out/
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# DuckDB specific
+*.duckdb
+*.duckdb.wal
+
+# Logs
+logs/
+*.log
+
+# SvelteKit
+.vercel/
+.svelte-kit/
+.svelte-kit-cache/
+.svelte-kit-temp/
+.svelte-kit-static/
+
+/data
+
+# built binaries
+/llm
+/pocketbase
+/translation
+
+# ClaudPoint checkpoint system
+.checkpoints/
