@@ -1,11 +1,8 @@
 # CryptoBubble Browser Extension
-🚀 Multi-browser extension that leverages AI to analyze cryptocurrency market bubble risk.
-
-## Overview
 
 The CryptoBubble Browser Extension provides instant access to cryptocurrency market bubble analysis powered by multiple AI models.
 Get real-time insights into whether the crypto market might be heading for a crash, with detailed market overviews and risk catalysts.
-Built from a single shared codebase, it supports both Chromium-based browsers and Firefox.
+It supports Chrome, Chromium-based browsers and Firefox.
 
 🔗 **Related Project:** This extension complements the full web application at [cryptobubble.ai](https://cryptobubble.ai)
 
