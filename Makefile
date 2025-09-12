@@ -67,11 +67,11 @@ preview-firefox: clean-preview
 
 preview-chrome-prod: clean-preview
 	cp $(EXT_DIR)/deploy/chrome-extension/prod/config.js $(EXT_DIR)/src/config.js
-	cd $(EXT_DIR) && npm run preview
+	cd $(EXT_DIR) && BROWSER=chrome ENV=prod npm run dev
 
 preview-firefox-prod: clean-preview
 	cp $(EXT_DIR)/deploy/firefox-extension/prod/config.js $(EXT_DIR)/src/config.js
-	cd $(EXT_DIR) && npm run preview
+	cd $(EXT_DIR) && BROWSER=firefox ENV=prod npm run dev
 
 clean-preview:
 	rm -f $(EXT_DIR)/src/config.js

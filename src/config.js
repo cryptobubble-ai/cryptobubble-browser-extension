@@ -1,6 +1,6 @@
 window.CB_CONFIG = {
-  apiUrl: "https://api.cryptobubble.dev/v1/consensus/latest?lang=en",
-  portalUrl: "https://cryptobubble.dev"
+  apiUrl: "https://api.cryptobubble.ai/v1/consensus/latest",
+  portalUrl: "https://cryptobubble.ai"
 };
 
 
