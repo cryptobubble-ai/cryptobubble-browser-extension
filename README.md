@@ -22,6 +22,12 @@ It supports Chrome, Chromium-based browsers and Firefox.
 - **⚡ Lightweight**: Minimal resource usage with fast loading times
 - **🌐 Multi-Browser**: Supports Chrome, Edge, Opera, Firefox, and other browsers
 
+## Chrome and Firefox Store Builds
+
+This extension is fully open source. For reproducing the Chrome and Firefox store versions:
+- **Firefox Add-ons**: See [README_FIREFOX.md](README_FIREFOX.md) for exact build instructions
+- **Chrome Web Store**: See [README_CHROME.md](README_CHROME.md) for exact build instructions
+
 ## Technology Stack
 
 - **Frontend**: Svelte 5 with modern runes syntax
