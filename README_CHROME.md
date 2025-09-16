@@ -1,6 +1,6 @@
 # Build Instructions for Chrome Extension
 
-## Build Environment Used for Submitted Chrome Extension
+## Build Environment Used for Submitted Store Version 
 
 ### Operating System
 - **OS**: macOS 15.6.1 (24G90)
@@ -12,13 +12,13 @@
 - **Build System**: Vite v5.4.8
 - **Framework**: Svelte 5
 
-### Build Commands Used
+## Build Commands
 ```bash
 npm install
 make pack-chrome-prod
 ```
 
-### Build Process
+## Build Process
 This process:
 1. **`npm install`** - Installs exact dependencies from `package-lock.json`
 2. **`make pack-chrome-prod`** - Executes the following commands:
