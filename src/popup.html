@@ -1,16 +1,23 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="color-scheme" content="dark light" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' blob:; worker-src 'self' blob:; style-src 'self' 'unsafe-inline'; connect-src 'self' http://localhost:5173 http://localhost:8080 ws: wss: https:; img-src 'self' data:; object-src 'none'">
-  <title>CryptoBubble AI</title>
-  </head>
+    <meta charset="utf-8"/>
+    <meta name="color-scheme" content="dark light"/>
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'self';
+                   script-src 'self' blob:;
+                   worker-src 'self' blob:;
+                   style-src 'self';
+                   connect-src 'self' https://api.cryptobubble.ai https://cryptobubble.ai https://api.cryptobubble.dev https://cryptobubble.dev http://localhost:5173 http://localhost:8080;
+                   img-src 'self' data:;
+                   object-src 'none'">
+    <title>CryptoBubble AI</title>
+</head>
 <body>
-  <script type="module" src="/config.js"></script>
-  <div id="app"></div>
-  <script type="module" src="/main.js"></script>
+<script type="module" src="/config.js"></script>
+<div id="app"></div>
+<script type="module" src="/main.js"></script>
 </body>
- </html>
+</html>
 
 
