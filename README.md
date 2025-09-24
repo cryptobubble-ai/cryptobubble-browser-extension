@@ -252,7 +252,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - **Main Application**: [cryptobubble.ai](https://cryptobubble.ai)
 - **Chrome Web Store**: [CryptoBubble AI](https://chromewebstore.google.com/detail/cryptobubble-ai/fdpnhfkhdgdjfnmmkhcmadgejemlmjhl)
-- **Firefox Add-ons**: [Link when published]
+- **Firefox Add-ons**: [CryptoBubble AI](https://addons.mozilla.org/en-GB/firefox/addon/cryptobubble-ai/)
 
 ---
 
